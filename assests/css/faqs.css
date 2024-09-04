@@ -1,0 +1,79 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+ }
+
+
+section{
+    padding: 2rem 9%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 9%;
+    background-color: #3a6063;
+    height: 89px;
+    position: fixed;
+    width: 100%;
+    padding-top: 0px;
+}
+.header .logo img{
+    width: 150px;
+    margin-bottom: 9;
+
+}
+.navbar a{
+    font-size: 20px;
+    color:white;
+}
+ .search-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.search-container input{
+    width: 350px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 2px 5px rgb(123, 217, 230);;
+    transition: 0.4s;
+}
+.search-container input:focus{
+    width: 450px;
+}
+.search-container i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(39, 68, 73);;
+    cursor: pointer;
+}
+.menu-button{
+    display: inline-block;
+    padding: 1.5rem;
+    background-color: rgb(67, 110, 110);
+    color:rgb(123, 183, 189);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.menu-button:hover{
+    border: 2px solid rgb(83,206, 83);
+    background:none;
+}
+.menu-button :hover a{
+    color: green;
+}
+.menu-button a{
+    color: white;}
