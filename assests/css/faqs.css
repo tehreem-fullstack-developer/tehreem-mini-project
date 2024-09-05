@@ -77,10 +77,66 @@ header{
 }
 .menu-button a{
     color: white;}
+    /* faqs start */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
     font-family: sans-serif;
+}
+.haeder-1{
+    background-image: linear-gradient(rgba(67,110,120));
+}
+.header-title{
+    font-size: 55px;
+    letter-spacing: 1.5;
+    padding: 200px;
+    text-align: center;
+}  
+.faq{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 3%;
+}
+.faq-name{
+    flex: 0.5;
+    padding: 2% 2% 0 0;
+
+}
+.faq-header{
+    padding: 5% 0 0 0;
+    font-size: 40px;
+    letter-spacing: 2;
+
+}
+.faq-img{
+
+    width: 100%;
+    max-width: 400px;
+
+}
+.faq-box{
+    flex: 1;
+    min-width: 320px;
+    padding: 2% 0 4% 4%;
+    border-left: 2px solid var(rgba 67,110, 120);
+    top: 50%;
+
+}
+.faq-wrapper{
+    width: 100%;
+    padding: 1.5rem;
+    border-bottom: 1px solid rgb(bkack)
+}
+.faq-tittle{
+    display: block;
+    position: relative;
+    width: 100%;
+    letter-spacing: 1.2;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(67, 110, 120);
 }
