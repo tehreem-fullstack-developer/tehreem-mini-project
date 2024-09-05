@@ -107,6 +107,7 @@ header{
     height: 15rem;
     object-fit: contain;
     object-position: center;
+    position: relative;
 }
 .products .box-container .box:hover .image img{
     transform: scale(1.1);
