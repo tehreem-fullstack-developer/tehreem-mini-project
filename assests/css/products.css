@@ -68,13 +68,15 @@ header{
     border-bottom-left-radius: 10px;
     transition: 0.3s;
     cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .menu-button:hover{
-    border: 2px solid rgb(83,206, 83);
+    border: 2px solid rgb(243, 247, 243);
     background:none;
+    font-family: 'Courier New', Courier, monospace;
 }
 .menu-button :hover a{
-    color: green;
+    color: rgb(226, 235, 226);
 }
 .menu-button a{
     color: white;
@@ -200,4 +202,61 @@ header{
     font-size: 1.4rem;
     font-weight: 600;
     color: #111010;
+}
+footer{
+    background-color: #02383a;
+    margin-top: 15px;
+
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #eeeeee;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color:black;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: #eeeeee;
+    transition: 0.s;
+}
+.footernav{
+    margin: 30px 0;
+    display: flex;
+
+}
+.footer ul{
+    display: inline-block;
+    justify-content: center;
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerbottom p{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    color: white;
 }

@@ -204,3 +204,59 @@ header{
     .heading-5 p{
         word-spacing: 2px;
     }
+    footer{
+        background-color: #02383a;
+        margin-top: 15px;
+    
+    }
+    .footercontainer{
+        width: 100%;
+        padding: 70px 30px 20px;
+    }
+    .socialicons{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .socialicons a{
+        text-decoration: none;
+        padding: 10px;
+        background-color: #eeeeee;
+        margin: 10px;
+        border-radius: 50%;
+    }
+    .socialicons a i{
+        font-size: 2em;
+        color:black;
+        opacity: 0.9;
+    }
+    .socialicons a:hover{
+        background-color: #111;
+        transition: 0.5s;
+    }
+    .socialicons a:hover i{
+        color: #eeeeee;
+        transition: 0.s;
+    }
+    .footernav{
+        margin: 30px 0;
+    
+    }
+    .footer ul{
+        display: flex;
+        justify-content: center;
+    }
+    .footernav ul li a{
+        color: white;
+        margin: 20px;
+        text-decoration: none;
+        font-size: 1.3rem;
+        opacity: 0.7;
+        transition: 0.5s;
+    }
+    .footerbottom p{
+        background-color: #000;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }

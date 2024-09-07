@@ -76,7 +76,9 @@ header{
     color: green;
 }
 .menu-button a{
-    color: white;}
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
     /* faqs start */
 *{
     margin: 0;
@@ -89,9 +91,8 @@ header{
     background-image: linear-gradient(rgba(67,110,120));
 }
 .header-title{
-    font-size: 55px;
+    font-size: px;
     letter-spacing: 1.5;
-    padding: 200px;
     text-align: center;
 }  
 .faq{
@@ -107,7 +108,7 @@ header{
 
 }
 .faq-header{
-    padding: 5% 0 0 0;
+    padding: 0 0 0;
     font-size: 40px;
     letter-spacing: 2;
 
@@ -139,4 +140,60 @@ header{
     font-size: 24px;
     font-weight: 600;
     color: rgba(67, 110, 120);
+}
+footer{
+    background-color: #02383a;
+    margin-top: 15px;
+
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #eeeeee;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color:black;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: #eeeeee;
+    transition: 0.s;
+}
+.footernav{
+    margin: 30px 0;
+
+}
+.footer ul{
+    display: flexbox;
+    justify-content: center;
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerbottom p{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    color: white;
 }

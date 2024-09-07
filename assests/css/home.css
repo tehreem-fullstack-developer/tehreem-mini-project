@@ -60,15 +60,17 @@ header{
 }
 .menu-button{
     display: inline-block;
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: rgb(67, 110, 110);
     color:rgb(123, 183, 189);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
     transition: 0.3s;
     cursor: pointer;
+    font-size: 15px;
 }
+
 .menu-button:hover{
     border: 2px solid rgb(83,206, 83);
     background:none;
@@ -436,60 +438,59 @@ button{
 
 
  */
-.footer{
-    background-color: #0cdde4;
-    padding: 70px 0;
-}
-.container{
-    max-width: 1170px;
-    margin: auto;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-ul{
-    list-style: none;
+footer{
+    background-color: #02383a;
+    margin-top: 15px;
 
 }
-.footer-col{
-width: 25%;
-padding: 0 15px;
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
 }
-.footer-col h4{
-    font-size: 18px;
-    color: #ffffff;
-    text-transform: capitalize;
-    margin-bottom: 35px;
-    font-weight: 500;
-    position: relative;
-    background-color: red;
+.socialicons{
+    display: flex;
+    justify-content: center;
+
 }
-.footer-col h4::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 10px;
-    background-color: #e91e36;
-    height: 2px;
-    box-sizing: border-box;
-    width: px;
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #eeeeee;
+    margin: 10px;
+    border-radius: 50%;
 }
-.footer-colul li:not(:last-child){
-    margin-bottom: 10px;
+.socialicons a i{
+    font-size: 2em;
+    color:black;
+    opacity: 0.9;
 }
-.footer-col ul li a{
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #ffffff;
-    text-decoration: none ;
-    font-weight: 300;
-    color: #bbbbbb;
-    display: block;
-    transform: all 0.3s ease;
-    display: block;
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
 }
-.footer-col ul li a:hover{
-    color: #ffffff;
-    padding-left: 8px;
+.socialicons a:hover i{
+    color: #eeeeee;
+    transition: 0.s;
+}
+.footernav{
+    margin: 30px 0;
+
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerbottom p{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    color: white;
 }
